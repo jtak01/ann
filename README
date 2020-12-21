@@ -1,0 +1,41 @@
+Jun Sung Tak
+Assignment 6: Artificial Neural Networks
+
+training data set length = 120
+testing data set length = 30
+epoch = 15000
+learning rate = 0.01
+Activation function = sigmoid
+
+Topology/architecture of network:
+This ANN has 2 hidden layers. 
+layer1 takes in 4 inputs and has 5 neurons
+layer2 takes in 5 inputs and has 3 neurons
+The potentials on the 3 neurons of layer2 determin the classification
+Each neuron is completely connected with all the neurons from the previous
+layer, fully-connected topology. 
+
+Input data are normalized using the min-max method
+x' = (xi - xmin) / (xmax - xmin)
+
+Prediction accuracy: 100% with random.seed(1337)
+
+After training the network, testing set data will be fed in and the network
+will be evaluated. If user wants to test new data then just modify the
+"manual_input" variable on line 253.
+
+run with: python n_network.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
