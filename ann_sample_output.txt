@@ -1,0 +1,246 @@
+	Phase 1: Initial randomized weights before training...
+****||||Layer1: 5 neurons with 4 inputs||||****
+[[ 0.31294442  0.41921456  0.04713106 -0.34004289 -0.84126464]
+ [-0.26387985 -0.97426866  0.26062966  0.38017779  0.50068023]
+ [-0.55530674 -0.55709733 -0.2200603  -0.02118839 -0.60023588]
+ [-0.32244527  0.74003233 -0.054592   -0.7139143   0.89857331]]
+****||||Layer2: 3 neurons with 5 inputs||||****
+[[ 0.4513022  -0.41527891 -0.99515123]
+ [-0.32590515  0.69242731 -0.33807303]
+ [-0.09094856 -0.55109353  0.65488075]
+ [ 0.93198614 -0.93315237 -0.5588211 ]
+ [-0.45319404 -0.861424   -0.0798211 ]]
+
+	Phase 2: New weights after training phase...
+****||||Layer1: 5 neurons with 4 inputs||||****
+[[-0.21486454  0.36892378  0.04247587 -0.33976469 -0.33069379]
+ [-0.5463949  -1.6493356   0.2605287   0.7772911   1.00716082]
+ [-1.94047213  0.2313983  -0.45658478 -1.32068833 -0.22012807]
+ [-2.52767967  1.43971543 -0.48672405 -2.33095169  1.76359316]]
+****||||Layer2: 3 neurons with 5 inputs||||****
+[[  7.55983702   1.83800461 -18.95254149]
+ [-13.97878833   5.87682628   8.95777398]
+ [  0.52641346   7.14632794  -9.40896914]
+ [ 13.93078999  -6.02315537 -22.80652871]
+ [  0.1764217   -8.46384711   0.81083972]]
+
+Training complete!
+
+	Phase 3: Testing accuracy of network...
+Test: 1
+Input: [5.9, 3.0, 4.2, 1.5]
+Target: [0, 1, 0]
+Prediction: [0.00261721 0.32735752 0.15598785]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 2
+Input: [6.7, 3.3, 5.7, 2.5]
+Target: [0, 0, 1]
+Prediction: [1.02007825e-04 2.84276593e-01 9.49943584e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 3
+Input: [4.4, 2.9, 1.4, 0.2]
+Target: [1, 0, 0]
+Prediction: [9.95722768e-01 1.50799768e-01 1.45471242e-09]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 4
+Input: [5.4, 3.4, 1.7, 0.2]
+Target: [1, 0, 0]
+Prediction: [9.96704267e-01 9.24198635e-02 2.75533330e-09]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 5
+Input: [5.8, 2.7, 4.1, 1.0]
+Target: [0, 1, 0]
+Prediction: [0.01111894 0.45605935 0.01395799]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 6
+Input: [4.9, 2.4, 3.3, 1.0]
+Target: [0, 1, 0]
+Prediction: [0.01638749 0.47807884 0.00413994]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 7
+Input: [6.4, 3.2, 4.5, 1.5]
+Target: [0, 1, 0]
+Prediction: [0.00292537 0.30147453 0.17203177]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 8
+Input: [6.1, 3.0, 4.6, 1.4]
+Target: [0, 1, 0]
+Prediction: [0.00273073 0.35506592 0.15831678]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 9
+Input: [6.4, 2.7, 5.3, 1.9]
+Target: [0, 0, 1]
+Prediction: [1.58003190e-04 4.69681662e-01 8.63255735e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 10
+Input: [5.5, 2.4, 3.7, 1.0]
+Target: [0, 1, 0]
+Prediction: [0.00797318 0.55428697 0.01225933]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 11
+Input: [5.0, 2.0, 3.5, 1.0]
+Target: [0, 1, 0]
+Prediction: [0.00431286 0.67832988 0.01534729]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 12
+Input: [6.7, 3.1, 4.4, 1.4]
+Target: [0, 1, 0]
+Prediction: [0.00298585 0.3624335  0.13713115]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 13
+Input: [6.5, 3.0, 5.8, 2.2]
+Target: [0, 0, 1]
+Prediction: [1.14303282e-04 3.61915530e-01 9.32052208e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 14
+Input: [7.6, 3.0, 6.6, 2.1]
+Target: [0, 0, 1]
+Prediction: [7.91186820e-05 4.46574026e-01 9.54115741e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 15
+Input: [6.5, 3.0, 5.2, 2.0]
+Target: [0, 0, 1]
+Prediction: [2.33726087e-04 3.69910022e-01 8.34242253e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 16
+Input: [4.6, 3.6, 1.0, 0.2]
+Target: [1, 0, 0]
+Prediction: [9.99614063e-01 4.06691393e-02 1.06825068e-10]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 17
+Input: [4.6, 3.4, 1.4, 0.3]
+Target: [1, 0, 0]
+Prediction: [9.97638271e-01 6.32468026e-02 1.75313187e-09]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 18
+Input: [5.0, 2.3, 3.3, 1.0]
+Target: [0, 1, 0]
+Prediction: [0.01164877 0.53691705 0.00557947]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 19
+Input: [5.2, 3.5, 1.5, 0.2]
+Target: [1, 0, 0]
+Prediction: [9.98392991e-01 6.80454889e-02 1.00871637e-09]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 20
+Input: [7.2, 3.0, 5.8, 1.6]
+Target: [0, 0, 1]
+Prediction: [4.42078869e-04 4.60271857e-01 6.94563457e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 21
+Input: [5.1, 3.3, 1.7, 0.5]
+Target: [1, 0, 0]
+Prediction: [9.72440552e-01 1.00933388e-01 8.46014382e-08]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 22
+Input: [6.2, 3.4, 5.4, 2.3]
+Target: [0, 0, 1]
+Prediction: [2.73521290e-04 2.38556505e-01 8.69686231e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 23
+Input: [6.1, 2.6, 5.6, 1.4]
+Target: [0, 0, 1]
+Prediction: [0.00055474 0.53950481 0.55114246]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 24
+Input: [4.9, 3.1, 1.5, 0.1]
+Target: [1, 0, 0]
+Prediction: [9.98020098e-01 1.29241813e-01 5.89358822e-10]
+Class: Iris-setosa
+Accurate Prediction!
+
+Test: 25
+Input: [6.3, 2.5, 4.9, 1.5]
+Target: [0, 1, 0]
+Prediction: [4.08357365e-04 5.72496221e-01 5.65468847e-01]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 26
+Input: [5.4, 3.0, 4.5, 1.5]
+Target: [0, 1, 0]
+Prediction: [0.00281243 0.29512383 0.16995437]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 27
+Input: [5.8, 2.7, 3.9, 1.2]
+Target: [0, 1, 0]
+Prediction: [0.00520266 0.4413341  0.03871542]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 28
+Input: [5.8, 2.8, 5.1, 2.4]
+Target: [0, 0, 1]
+Prediction: [7.44103441e-05 3.59461635e-01 9.49986164e-01]
+Class: Iris-verginica
+Accurate Prediction!
+
+Test: 29
+Input: [5.5, 2.6, 4.4, 1.2]
+Target: [0, 1, 0]
+Prediction: [0.00322325 0.47166918 0.07930091]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Test: 30
+Input: [5.8, 2.6, 4.0, 1.2]
+Target: [0, 1, 0]
+Prediction: [0.00366407 0.48933905 0.05513721]
+Class: Iris-versicolor
+Accurate Prediction!
+
+Testing complete!
+
+Testing set prediction accuracy: 100.0%
+
+Input : [4.0, 2.3, 5.3, 2.0]
+Output: [1.26585383e-04 4.16111593e-01 8.94944616e-01]
+Class: Iris-verginica
